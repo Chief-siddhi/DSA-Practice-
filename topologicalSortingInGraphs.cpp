@@ -35,6 +35,7 @@ public:
                 dfs(i,vis,s);
             }
         }
+        
         while(s.size()>0){
             cout<<s.top()<<" ";
             s.pop();
