@@ -33,3 +33,5 @@ bool canFinish(int n , vector<vector<int>> &edges){
     }
     return true;
 }
+
+//course schedule
