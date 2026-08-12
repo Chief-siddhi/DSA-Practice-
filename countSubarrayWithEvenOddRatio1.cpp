@@ -13,5 +13,5 @@ int countRatioSubarrays(vector<int> &nums, int a, int b){
             if(y>0 && x*b <= y*a) valid_subarray++;
         }
     }
-    return valid_subarray;
+    return valid_subarray
 }
