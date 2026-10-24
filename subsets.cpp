@@ -22,3 +22,29 @@
 //         return allSubsets;
 //     }
 // };
+
+
+//subsets - by backtracking
+// class Solution{
+// public:
+//     void getAllSubsets(vector<int>&nums, vector<int>& ans, int i){
+//         if(i==nums.size()){
+//             //store subsets
+//             allSubsets.push_back({ans});
+//             return;
+//         }
+//         ans.push_back(nums[i]);
+//         getAllSubsets(nums,ans,i+1, allSubsets);
+
+//         ans.pop_back();
+
+//         //exclude
+//         getAllSubsets(nums, ans, i+1);
+//     }
+//     vector<vector<int>> subsets(vector<int>&nums){
+//         vector<vector<int>> allSubsets;
+//         vector<int> ans;
+//         getAllSubsets(nums,ans,0,allSubsets);
+//         return allSubsets;
+//     }
+// }
